@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="AT_Email:Suite" verbose="1">
+
+    <test name="Corpuscular Runner: Login">
+        <classes>
+            <class name="Tests.TestsRunner">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Corpuscular Runner: New Letter Save in Draft">
+        <classes>
+            <class name="Tests.TestsRunner">
+                <methods>
+                    <include name="login"/>
+                    <include name="newLetterSavedInDraft"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Corpuscular Runner: Verify the letter and send it">
+        <classes>
+            <class name="Tests.TestsRunner">
+                <methods>
+                    <include name="login"/>
+                    <include name="newLetterSavedInDraft"/>
+                    <include name="verifyAndSendDraft"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Corpuscular Runner: Check draft letters folder">
+        <classes>
+            <class name="Tests.TestsRunner">
+                <methods>
+                    <include name="login"/>
+                    <include name="newLetterSavedInDraft"/>
+                    <include name="verifyAndSendDraft"/>
+                    <include name="checkDraftFolder"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Corpuscular Runner: Check SentLetters folder">
+        <classes>
+            <class name="Tests.TestsRunner">
+                <methods>
+                    <include name="login"/>
+                    <include name="newLetterSavedInDraft"/>
+                    <include name="verifyAndSendDraft"/>
+                    <include name="checkDraftFolder"/>
+                    <include name="checkSentLetterFolder"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Corpuscular Runner: Log out">
+        <classes>
+            <class name="Tests.TestsRunner">
+                <methods>
+                    <include name="login"/>
+                    <include name="newLetterSavedInDraft"/>
+                    <include name="verifyAndSendDraft"/>
+                    <include name="checkDraftFolder"/>
+                    <include name="checkSentLetterFolder"/>
+                    <include name="logingOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

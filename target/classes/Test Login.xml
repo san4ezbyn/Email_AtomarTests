@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AT_Email:Suite" verbose="1">
+
+    <test name="Corpuscular Runner: Login">
+        <classes>
+            <class name="Tests.TestsRunner">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

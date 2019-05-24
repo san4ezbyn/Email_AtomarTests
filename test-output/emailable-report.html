@@ -10,49 +10,65 @@
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">AT_Email:Suite</th></tr>
 <tr><th colspan="7">AT_Email:Suite (0)</th></tr>
-<tr><td><a href="#t0">ClassRunner</a></td><td class="num">1</td><td class="num attn">3</td><td class="num attn">2</td><td class="num">96,168</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Corpuscular Runner: Login</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">13,354</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Corpuscular Runner: New Letter Save in Draft</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">23,405</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Corpuscular Runner: Verify the letter and send it</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">22,715</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Corpuscular Runner: Check draft letters folder</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">22,043</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Corpuscular Runner: Check SentLetters folder</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">57,385</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">Corpuscular Runner: Log out</a></td><td class="num">4</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">58,553</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">18</th><th class="num attn">1</th><th class="num attn">2</th><th class="num">197,455</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AT_Email:Suite</th></tr></tbody><tbody><tr><th colspan="4">AT_Email:Suite (0)</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ClassRunner &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Tests.TestsRunner</td><td><a href="#m0">newLetterSavedInDraft</a></td><td rowspan="1">1558530688756</td><td rowspan="1">13860</td></tr><tr class="failedeven"><td><a href="#m1">verifyAndSendDraft</a></td><td rowspan="1">1558530702617</td><td rowspan="1">60042</td></tr><tr><th colspan="4">ClassRunner &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">Tests.TestsRunner</td><td><a href="#m2">checkDraftFolder</a></td><td rowspan="1">1558530762662</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">checkSentLetterFolder</a></td><td rowspan="1">1558530762662</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">logingOut</a></td><td rowspan="1">1558530762663</td><td rowspan="1">0</td></tr><tr><th colspan="4">ClassRunner &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.TestsRunner</td><td><a href="#m5">login</a></td><td rowspan="1">1558530676081</td><td rowspan="1">12674</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AT_Email:Suite</th></tr></tbody><tbody><tr><th colspan="4">AT_Email:Suite (0)</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Corpuscular Runner: Login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.TestsRunner</td><td><a href="#m0">login</a></td><td rowspan="1">1558703084265</td><td rowspan="1">3542</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Corpuscular Runner: New Letter Save in Draft &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Tests.TestsRunner</td><td><a href="#m1">login</a></td><td rowspan="1">1558703095180</td><td rowspan="1">4337</td></tr><tr class="passedeven"><td><a href="#m2">newLetterSavedInDraft</a></td><td rowspan="1">1558703099518</td><td rowspan="1">9595</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Corpuscular Runner: Verify the letter and send it &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Tests.TestsRunner</td><td><a href="#m3">login</a></td><td rowspan="1">1558703118235</td><td rowspan="1">3915</td></tr><tr class="passedeven"><td><a href="#m4">newLetterSavedInDraft</a></td><td rowspan="1">1558703122151</td><td rowspan="1">8415</td></tr><tr class="passedeven"><td><a href="#m5">verifyAndSendDraft</a></td><td rowspan="1">1558703130566</td><td rowspan="1">1024</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Corpuscular Runner: Check draft letters folder &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">Tests.TestsRunner</td><td><a href="#m6">checkDraftFolder</a></td><td rowspan="1">1558703154958</td><td rowspan="1">925</td></tr><tr class="passedeven"><td><a href="#m7">login</a></td><td rowspan="1">1558703140923</td><td rowspan="1">3395</td></tr><tr class="passedeven"><td><a href="#m8">newLetterSavedInDraft</a></td><td rowspan="1">1558703144319</td><td rowspan="1">9180</td></tr><tr class="passedeven"><td><a href="#m9">verifyAndSendDraft</a></td><td rowspan="1">1558703153500</td><td rowspan="1">1455</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Corpuscular Runner: Check SentLetters folder &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.TestsRunner</td><td><a href="#m10">checkSentLetterFolder</a></td><td rowspan="1">1558703181059</td><td rowspan="1">30440</td></tr><tr><th colspan="4">Corpuscular Runner: Check SentLetters folder &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">Tests.TestsRunner</td><td><a href="#m11">checkDraftFolder</a></td><td rowspan="1">1558703179993</td><td rowspan="1">1066</td></tr><tr class="passedeven"><td><a href="#m12">login</a></td><td rowspan="1">1558703163586</td><td rowspan="1">4701</td></tr><tr class="passedeven"><td><a href="#m13">newLetterSavedInDraft</a></td><td rowspan="1">1558703168288</td><td rowspan="1">10537</td></tr><tr class="passedeven"><td><a href="#m14">verifyAndSendDraft</a></td><td rowspan="1">1558703178825</td><td rowspan="1">1168</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">Corpuscular Runner: Log out &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.TestsRunner</td><td><a href="#m15">checkSentLetterFolder</a></td><td rowspan="1">1558703239663</td><td rowspan="1">30421</td></tr><tr><th colspan="4">Corpuscular Runner: Log out &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Tests.TestsRunner</td><td><a href="#m16">logingOut</a></td><td rowspan="1">1558703270085</td><td rowspan="1">0</td></tr><tr><th colspan="4">Corpuscular Runner: Log out &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">Tests.TestsRunner</td><td><a href="#m17">checkDraftFolder</a></td><td rowspan="1">1558703238671</td><td rowspan="1">992</td></tr><tr class="passedeven"><td><a href="#m18">login</a></td><td rowspan="1">1558703220469</td><td rowspan="1">8698</td></tr><tr class="passedeven"><td><a href="#m19">newLetterSavedInDraft</a></td><td rowspan="1">1558703229167</td><td rowspan="1">8301</td></tr><tr class="passedeven"><td><a href="#m20">verifyAndSendDraft</a></td><td rowspan="1">1558703237468</td><td rowspan="1">1202</td></tr></tbody>
 </table>
-<h2>ClassRunner</h2><h3 id="m0">Tests.TestsRunner#newLetterSavedInDraft</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=74.0.3729.157)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+<h2>Corpuscular Runner: Login</h2><h3 id="m0">Tests.TestsRunner#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Corpuscular Runner: New Letter Save in Draft</h2><h3 id="m1">Tests.TestsRunner#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Tests.TestsRunner#newLetterSavedInDraft</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Corpuscular Runner: Verify the letter and send it</h2><h3 id="m3">Tests.TestsRunner#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Tests.TestsRunner#newLetterSavedInDraft</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Tests.TestsRunner#verifyAndSendDraft</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Corpuscular Runner: Check draft letters folder</h2><h3 id="m6">Tests.TestsRunner#checkDraftFolder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Tests.TestsRunner#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Tests.TestsRunner#newLetterSavedInDraft</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Tests.TestsRunner#verifyAndSendDraft</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Corpuscular Runner: Check SentLetters folder</h2><h3 id="m10">Tests.TestsRunner#checkSentLetterFolder</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text (&apos;AT-WD-№-89&apos;) to be present in element [[ChromeDriver: chrome on XP (2e33d4965cf0593666fbf59713394c4c)] -&gt; xpath: //div[@class=&apos;mail-MessageSnippet-Content&apos;]] (tried for 30 second(s) with 60 milliseconds interval)
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;DESKTOP-94SQPTM&apos;, ip: &apos;192.168.12.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\adaky\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54423}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: 752500eba84b4ff064a39df148a05a47
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy7.click(Unknown Source)
-	at services.NewLetter.newLetter(NewLetter.java:63)
-	at Tests.TestsRunner.newLetterSavedInDraft(TestsRunner.java:47)
-	at runners.SuiteRunner.main(SuiteRunner.java:27)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Tests.TestsRunner#verifyAndSendDraft</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at Tests.TestsRunner.verifyAndSendDraft(TestsRunner.java:54)
-	at runners.SuiteRunner.main(SuiteRunner.java:27)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Tests.TestsRunner#checkDraftFolder</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestsRunner.checkDraftFolder()[pri:0, instance:Tests.TestsRunner@2fc14f68] depends on not successfully finished methods
-	at runners.SuiteRunner.main(SuiteRunner.java:27)
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\adaky\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52513}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 2e33d4965cf0593666fbf59713394c4c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at services.SendDraftMail.checkFolders(SendDraftMail.java:46)
+	at Tests.TestsRunner.checkSentLetterFolder(TestsRunner.java:64)
+	at runners.SuiteRunner.main(SuiteRunner.java:29)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Tests.TestsRunner#checkDraftFolder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Tests.TestsRunner#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Tests.TestsRunner#newLetterSavedInDraft</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">Tests.TestsRunner#verifyAndSendDraft</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Corpuscular Runner: Log out</h2><h3 id="m15">Tests.TestsRunner#checkSentLetterFolder</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text (&apos;AT-WD-№-89&apos;) to be present in element [[ChromeDriver: chrome on XP (dfa77bbb703142b8cfcd4fac6bff776c)] -&gt; xpath: //div[@class=&apos;mail-MessageSnippet-Content&apos;]] (tried for 30 second(s) with 60 milliseconds interval)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-94SQPTM&apos;, ip: &apos;192.168.12.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\adaky\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52587}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: dfa77bbb703142b8cfcd4fac6bff776c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at services.SendDraftMail.checkFolders(SendDraftMail.java:46)
+	at Tests.TestsRunner.checkSentLetterFolder(TestsRunner.java:64)
+	at runners.SuiteRunner.main(SuiteRunner.java:29)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">Tests.TestsRunner#logingOut</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestsRunner.logingOut()[pri:0, instance:Tests.TestsRunner@75bd9247] depends on not successfully finished methods
+	at runners.SuiteRunner.main(SuiteRunner.java:29)
 ... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Tests.TestsRunner#checkSentLetterFolder</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestsRunner.checkSentLetterFolder()[pri:0, instance:Tests.TestsRunner@2fc14f68] depends on not successfully finished methods
-	at runners.SuiteRunner.main(SuiteRunner.java:27)
-... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Tests.TestsRunner#logingOut</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestsRunner.logingOut()[pri:0, instance:Tests.TestsRunner@2fc14f68] depends on not successfully finished methods
-	at runners.SuiteRunner.main(SuiteRunner.java:27)
-... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">Tests.TestsRunner#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">Tests.TestsRunner#checkDraftFolder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">Tests.TestsRunner#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">Tests.TestsRunner#newLetterSavedInDraft</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">Tests.TestsRunner#verifyAndSendDraft</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

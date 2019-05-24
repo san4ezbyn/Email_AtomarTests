@@ -3,14 +3,10 @@ package Tests;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import services.*;
-
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
-
 import static java.lang.System.setProperty;
 
 public class TestsRunner {
@@ -37,14 +33,15 @@ public class TestsRunner {
         launchAndLogIn = new LaunchAndLogIn(driver);
     }
 
-    @Test
+    @Test(testName = "new letter")
     private void login() throws InterruptedException {
         newLetter = launchAndLogIn.startAndLogIn();
         Assert.assertTrue(launchAndLogIn.userAccount());
     }
 
     @Test
-    private void newLetterSavedInDraft() {
+    private void newLetterSavedInDraft() throws InterruptedException {
+
         sendDraftMail = newLetter.newLetter(RECEIVER, TOPIC, TEXT);
         Assert.assertTrue(newLetter.findDraft());
         System.out.println("TOPIC " + TOPIC);
@@ -66,6 +63,7 @@ public class TestsRunner {
         logOut = sendDraftMail.checkSentLettersFolder(TOPIC);
         Assert.assertFalse(sendDraftMail.checkFolders(TOPIC));
     }
+
 
     @Test(dependsOnMethods = "checkSentLetterFolder")
     private void logingOut() {

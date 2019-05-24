@@ -43,9 +43,10 @@ public class SendDraftMail {
     public boolean checkFolders(String topic) {
         List<WebElement> listOfLetters = driver.findElements(By.xpath("//div[@class='mail-MessageSnippet-Content']"));
         for (WebElement draftLetter : listOfLetters) {
-            wait.until(ExpectedConditions.textToBePresentInElement(draftLetter, topic));
-            if (draftLetter.getText().contains(topic)) {
-                return false;
+            wait.until(ExpectedConditions.textToBePresentInElement(draftLetter, topic)); {
+                if (draftLetter.getText().contains(topic)) {
+                    return false;
+                }
             }
         }
         return true;

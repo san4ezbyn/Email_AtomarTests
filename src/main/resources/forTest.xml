@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AT_Email:Suite" verbose="1">
+   <!-- <suite-files>
+        <suite-file path="./Test Login.xml"/>
+        <suite-file path="./CorpuscularTestsRunner.xml"/>
+    </suite-files>-->
+    <method-selectors>
+        <method-selector>
+            <selector-class name="runners.SuiteRunner"/>
+        </method-selector>
+
+    </method-selectors>
+
+
+    <!--  <test name="Corpuscular Runner: New Letter Save in Draft">
+          <classes>
+              <class name="Tests.TestsRunner">
+                  <methods>
+
+                      <include name="newLetterSavedInDraft"/>
+                      &lt;!&ndash; <include name="verifyAndSendDraft"/>
+                       <include name="checkDraftFolder"/>
+                       <include name="checkSentLetterFolder"/>
+                       <include name="logingOut"/>&ndash;&gt;
+                  </methods>
+              </class>
+          </classes>
+      </test>-->
+</suite>
