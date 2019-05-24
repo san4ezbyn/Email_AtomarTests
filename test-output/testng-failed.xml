@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AT_Email:Suite (0)]">
+  <test thread-count="5" name="ClassRunner(failed)">
+    <classes>
+      <class name="Tests.TestsRunner">
+        <methods>
+          <include name="logingOut"/>
+          <include name="tearDown"/>
+          <include name="verifyAndSendDraft"/>
+          <include name="checkDraftFolder"/>
+          <include name="checkSentLetterFolder"/>
+          <include name="newLetterSavedInDraft"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Tests.TestsRunner -->
+    </classes>
+  </test> <!-- ClassRunner(failed) -->
+</suite> <!-- Failed suite [AT_Email:Suite (0)] -->
