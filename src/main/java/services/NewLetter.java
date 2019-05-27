@@ -11,7 +11,7 @@ public class NewLetter {
 
     private static final String NEW_LETTER_TOPIC = "AT-WD-№";
 
-    WebDriver driver;
+    private WebDriver driver;
 
     @FindBy(xpath = "//div[@class='user2']")
     private WebElement correctUser;

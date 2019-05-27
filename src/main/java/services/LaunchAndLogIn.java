@@ -10,8 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LaunchAndLogIn {
 
-    WebDriverWait wait;
-    WebDriver driver;
+    private WebDriverWait wait;
+    private WebDriver driver;
 
     private static final String LOGIN = "alexbyn";
     private static final String PASSWORD = "lollipop18";
@@ -38,7 +38,7 @@ public class LaunchAndLogIn {
         PageFactory.initElements(this.driver, this);
     }
 
-    public NewLetter startAndLogIn(){
+    public NewLetter startAndLogIn() {
 
         loginField.sendKeys(LOGIN);
         loginButtonEnter.click();

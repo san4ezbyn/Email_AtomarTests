@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LogOut {
 
-    WebDriver driver;
+    private WebDriver driver;
 
     @FindBy(xpath = "//div[@class='mail-User-Name'][contains(text(),'alexbyn')]")
     private WebElement userAccount;
