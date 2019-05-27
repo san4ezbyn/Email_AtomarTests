@@ -13,11 +13,11 @@ public class TestsRunner {
     private static WebDriver driver;
     private static final String URL = "https://passport.yandex.by";
     private static final String PAGE_TITLE = "Яндекс";
-    private static LaunchAndLogIn launchAndLogIn;
-    private static NewLetter newLetter;
-    private static SendDraftMail sendDraftMail;
-    private static LogOut logOut;
-    private static Finish finish;
+    private LaunchAndLogIn launchAndLogIn;
+    private NewLetter newLetter;
+    private SendDraftMail sendDraftMail;
+    private LogOut logOut;
+    private Finish finish;
     private static final String RECEIVER = "fake@gmale.com";
     private static final String TOPIC = String.format("AT-WD-№-%s", new Random().nextInt(100));
     private static final String TEXT = "SOME TEXT FOR LETTER";
