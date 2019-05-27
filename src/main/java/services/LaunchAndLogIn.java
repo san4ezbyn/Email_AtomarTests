@@ -20,16 +20,16 @@ public class LaunchAndLogIn {
     private static final int SLEEP_MILLIS = 120;
 
     @FindBy(xpath = "//input[@name='login']")
-    private static WebElement loginField;
+    private WebElement loginField;
 
     @FindBy(xpath = "//button[@type='submit']")
-    private static WebElement loginButtonEnter;
+    private WebElement loginButtonEnter;
 
     @FindBy(xpath = "//input[@autocomplete='current-password']")
-    private static WebElement passwordField;
+    private WebElement passwordField;
 
     @FindBy(xpath = "//div[@class='user2']")
-    private static WebElement correctUser;
+    private WebElement correctUser;
 
 
     public LaunchAndLogIn(WebDriver driver) {
@@ -38,7 +38,7 @@ public class LaunchAndLogIn {
         PageFactory.initElements(this.driver, this);
     }
 
-    public NewLetter startAndLogIn() throws InterruptedException {
+    public NewLetter startAndLogIn(){
 
         loginField.sendKeys(LOGIN);
         loginButtonEnter.click();

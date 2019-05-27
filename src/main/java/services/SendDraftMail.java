@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.List;
 
 public class SendDraftMail {
@@ -16,10 +15,10 @@ public class SendDraftMail {
     WebDriverWait wait;
 
     @FindBy(xpath = "//span[contains(text(),'Отправленные')]")
-    private static WebElement sentLetters;
+    private WebElement sentLetters;
 
     @FindBy(xpath = "//span[contains(text(),'Черновики')]")
-    private static WebElement draftLetters;
+    private WebElement draftLetters;
 
     public SendDraftMail(WebDriver driver) {
         this.driver = driver;
@@ -48,7 +47,7 @@ public class SendDraftMail {
                     return false;
                 }
             }
-        }
+       }
         return true;
     }
 }

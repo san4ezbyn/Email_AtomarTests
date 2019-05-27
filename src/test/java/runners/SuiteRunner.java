@@ -16,9 +16,6 @@ public class SuiteRunner {
         List<String> files = new ArrayList<>();
         files.addAll(new ArrayList<String>() {{
             // add("./src/main/resources/xmlRunner.xml");
-            //add("./src/main/resources/corpuscularTests.xml");
-
-            //add("./src/main/resources/Test Login.xml");
             add("./src/main/resources/CorpuscularTestsRunner.xml");
         }});
         suite.setSuiteFiles(files);
@@ -29,5 +26,4 @@ public class SuiteRunner {
 
         tng.run();
     }
-
 }

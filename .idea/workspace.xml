@@ -3,14 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8cd2545a-9d6e-4274-840d-2d2c27935c1a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/resources/CorpuscularTestsRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Test Login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/corpuscularTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/forTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/LogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/NewLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/NewLetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/services/SendDraftMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/SendDraftMail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/xmlRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/LaunchAndLogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/LaunchAndLogIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/LogOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/LogOut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/NewLetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/NewLetter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/services/SendDraftMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/SendDraftMail.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xmlRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xmlRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/TestsRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/TestsRunner.class" afterDir="false" />
@@ -35,28 +38,29 @@
     <session id="-1776991503">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="4666" />
+          <entry key="java" value="4743" />
           <entry key="xml" value="491" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4666" />
+          <entry key="JAVA" value="4743" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="XML" value="491" />
         </counts>
@@ -66,16 +70,16 @@
           <entry key="Test Login" value="1" />
           <entry key="class" value="16" />
           <entry key="dtd" value="3" />
-          <entry key="java" value="12" />
-          <entry key="xml" value="4" />
+          <entry key="java" value="15" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="16" />
           <entry key="DTD" value="3" />
-          <entry key="JAVA" value="12" />
-          <entry key="XML" value="5" />
+          <entry key="JAVA" value="15" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -86,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="36" column="73" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="73" />
+              <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,24 +99,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/LogOut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="476">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1878#1879#0" expanded="true" />
-                <element signature="e#1966#1967#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/services/SendDraftMail.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/NewLetter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="-217">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,22 +123,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="391">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1776#1777#0" expanded="true" />
+                <element signature="e#1864#1865#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Test Login.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/SendDraftMail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="14" selection-start-line="3" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="748">
+              <caret line="44" column="85" selection-start-line="44" selection-start-column="85" selection-end-line="44" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,28 +158,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/forTest.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng-plugin.jar!/resources/standardSchemas/testng-1.0.dtd">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/Finish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/xmlRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,18 +202,18 @@
         <option value="$PROJECT_DIR$/src/main/java/services/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/SendMail.java" />
         <option value="$PROJECT_DIR$/src/test/java/runners/Runner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/services/LogOut.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/Finish.java" />
-        <option value="$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/services/NewLetter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/services/SendDraftMail.java" />
         <option value="$PROJECT_DIR$/src/main/resources/corpuscularTests.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/xmlRunner.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Test Login.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java" />
         <option value="$PROJECT_DIR$/src/main/resources/forTest.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Test New Letter Save in Draft.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/LogOut.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/NewLetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/SendDraftMail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java" />
       </list>
     </option>
   </component>
@@ -305,13 +309,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558703558340" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558941220504" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -325,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SuiteRunner">
+  <component name="RunManager" selected="TestNG.TestsRunner">
     <configuration name="SuiteRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="runners.SuiteRunner" />
       <module name="EmailTask" />
@@ -359,7 +363,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestsRunner.checkSentLetterFolder" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestsRunner" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EmailTask" />
       <extension name="coverage">
         <pattern>
@@ -369,8 +373,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.TestsRunner" />
-      <option name="METHOD_NAME" value="checkSentLetterFolder" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -398,17 +400,17 @@
     <list>
       <item itemvalue="Application.SuiteRunner" />
       <item itemvalue="TestNG.TestsRunner.newLetterSavedInDraft" />
-      <item itemvalue="TestNG.TestsRunner.checkSentLetterFolder" />
       <item itemvalue="TestNG.C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/forTest.xml" />
       <item itemvalue="TestNG.C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/Test New Letter Save in Draft.xml" />
+      <item itemvalue="TestNG.TestsRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestsRunner" />
         <item itemvalue="Application.SuiteRunner" />
         <item itemvalue="TestNG.C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/Test New Letter Save in Draft.xml" />
         <item itemvalue="TestNG.C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/forTest.xml" />
         <item itemvalue="TestNG.TestsRunner.newLetterSavedInDraft" />
-        <item itemvalue="TestNG.TestsRunner.checkSentLetterFolder" />
       </list>
     </recent_temporary>
   </component>
@@ -426,41 +428,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_forTest_xml - 2019.05.24 at 15h 29m 38s.xml">
-      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/forTest.xml" configurationId="TestNG" />
+    <history-entry file="TestsRunner - 2019.05.27 at 07h 56m 50s.xml">
+      <configuration name="TestsRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_forTest_xml - 2019.05.24 at 15h 31m 15s.xml">
-      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/forTest.xml" configurationId="TestNG" />
+    <history-entry file="TestsRunner - 2019.05.27 at 09h 10m 33s.xml">
+      <configuration name="TestsRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_forTest_xml - 2019.05.24 at 15h 39m 07s.xml">
-      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/forTest.xml" configurationId="TestNG" />
+    <history-entry file="TestsRunner - 2019.05.27 at 09h 27m 07s.xml">
+      <configuration name="TestsRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_forTest_xml - 2019.05.24 at 15h 40m 53s.xml">
-      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/forTest.xml" configurationId="TestNG" />
+    <history-entry file="TestsRunner - 2019.05.27 at 09h 29m 12s.xml">
+      <configuration name="TestsRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_forTest_xml - 2019.05.24 at 15h 42m 51s.xml">
-      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/forTest.xml" configurationId="TestNG" />
+    <history-entry file="TestsRunner - 2019.05.27 at 09h 44m 16s.xml">
+      <configuration name="TestsRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_forTest_xml - 2019.05.24 at 15h 43m 35s.xml">
-      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/forTest.xml" configurationId="TestNG" />
+    <history-entry file="TestsRunner - 2019.05.27 at 09h 48m 41s.xml">
+      <configuration name="TestsRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_Test_New_Letter_Save_in_Draft_xml - 2019.05.24 at 15h 48m 05s.xml">
-      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/Test New Letter Save in Draft.xml" configurationId="TestNG" />
+    <history-entry file="TestsRunner - 2019.05.27 at 09h 54m 45s.xml">
+      <configuration name="TestsRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_Test_New_Letter_Save_in_Draft_xml - 2019.05.24 at 15h 49m 12s.xml">
-      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/Test New Letter Save in Draft.xml" configurationId="TestNG" />
+    <history-entry file="TestsRunner - 2019.05.27 at 09h 59m 19s.xml">
+      <configuration name="TestsRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_Test_New_Letter_Save_in_Draft_xml - 2019.05.24 at 15h 50m 17s.xml">
-      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/Test New Letter Save in Draft.xml" configurationId="TestNG" />
+    <history-entry file="TestsRunner - 2019.05.27 at 10h 01m 15s.xml">
+      <configuration name="TestsRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_Test_New_Letter_Save_in_Draft_xml - 2019.05.24 at 15h 56m 45s.xml">
-      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/Test New Letter Save in Draft.xml" configurationId="TestNG" />
+    <history-entry file="TestsRunner - 2019.05.27 at 10h 04m 10s.xml">
+      <configuration name="TestsRunner" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="4" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2675906" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27025586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -524,19 +527,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/services/NewLetter.java</url>
-          <line>66</line>
+          <line>63</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/services/NewLetter.java</url>
-          <line>67</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/services/NewLetter.java</url>
-          <line>69</line>
+          <line>65</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -601,64 +604,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/NewLetter.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng-plugin.jar!/resources/standardSchemas/testng-1.0.dtd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/LogOut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/Finish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="36" column="73" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1394">
+          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/xmlRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng-plugin.jar!/resources/standardSchemas/testng-1.0.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/forTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -669,15 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/forTest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1878#1879#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -688,20 +639,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/Finish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/LogOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/NewLetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/corpuscularTests.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/SendDraftMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,6 +692,28 @@
           <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/SendDraftMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="85" selection-start-line="44" selection-start-column="85" selection-end-line="44" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1776#1777#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
           </folding>
         </state>
       </provider>

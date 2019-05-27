@@ -11,7 +11,7 @@ public class LogOut {
     WebDriver driver;
 
     @FindBy(xpath = "//div[@class='mail-User-Name'][contains(text(),'alexbyn')]")
-    private static WebElement userAccount;
+    private WebElement userAccount;
 
     public LogOut(WebDriver driver) {
         this.driver = driver;
@@ -28,5 +28,4 @@ public class LogOut {
     public String getStartPageTitel() {
         return this.driver.getTitle();
     }
-
 }

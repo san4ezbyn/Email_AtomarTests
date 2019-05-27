@@ -15,16 +15,16 @@ public class TestsRunner {
     private static final String PAGE_TITLE = "Яндекс";
     private static LaunchAndLogIn launchAndLogIn;
     private static NewLetter newLetter;
-    private SendDraftMail sendDraftMail;
-    private LogOut logOut;
-    private Finish finish;
+    private static SendDraftMail sendDraftMail;
+    private static LogOut logOut;
+    private static Finish finish;
     private static final String RECEIVER = "fake@gmale.com";
     private static final String TOPIC = String.format("AT-WD-№-%s", new Random().nextInt(100));
     private static final String TEXT = "SOME TEXT FOR LETTER";
-    public static final int IMPLICIT_WAIT=60;
+    public static final int IMPLICIT_WAIT=80;
 
     @BeforeClass
-    private void init() throws InterruptedException {
+    private void init(){
         setProperty("webdriver.chrome.driver", "C:\\chromeDriver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -34,13 +34,13 @@ public class TestsRunner {
     }
 
     @Test(testName = "new letter")
-    private void login() throws InterruptedException {
+    private void login(){
         newLetter = launchAndLogIn.startAndLogIn();
         Assert.assertTrue(launchAndLogIn.userAccount());
     }
 
     @Test
-    private void newLetterSavedInDraft() throws InterruptedException {
+    private void newLetterSavedInDraft(){
 
         sendDraftMail = newLetter.newLetter(RECEIVER, TOPIC, TEXT);
         Assert.assertTrue(newLetter.findDraft());
@@ -63,7 +63,6 @@ public class TestsRunner {
         logOut = sendDraftMail.checkSentLettersFolder(TOPIC);
         Assert.assertFalse(sendDraftMail.checkFolders(TOPIC));
     }
-
 
     @Test(dependsOnMethods = "checkSentLetterFolder")
     private void logingOut() {
