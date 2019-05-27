@@ -11,8 +11,8 @@ import java.util.List;
 
 public class SendDraftMail {
 
-    private WebDriver driver;
-    private WebDriverWait wait;
+    private static WebDriver driver;
+    private static WebDriverWait wait;
 
     @FindBy(xpath = "//span[contains(text(),'Отправленные')]")
     private WebElement sentLetters;

@@ -10,8 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LaunchAndLogIn {
 
-    private WebDriverWait wait;
-    private WebDriver driver;
+    private static WebDriverWait wait;
+    private static WebDriver driver;
 
     private static final String LOGIN = "alexbyn";
     private static final String PASSWORD = "lollipop18";
