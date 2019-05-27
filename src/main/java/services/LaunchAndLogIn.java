@@ -25,9 +25,6 @@ public class LaunchAndLogIn {
     @FindBy(xpath = "//button[@type='submit']")
     private WebElement loginButtonEnter;
 
-    @FindBy(xpath = "//input[@autocomplete='current-password']")
-    private WebElement passwordField;
-
     @FindBy(xpath = "//div[@class='user2']")
     private WebElement correctUser;
 

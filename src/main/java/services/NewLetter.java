@@ -31,9 +31,6 @@ public class NewLetter {
     @FindBy(xpath = "//div[@role='textbox']")
     private WebElement textField;
 
-    @FindBy(xpath = "//span[contains(text(),'как черновик')]")
-    private WebElement saveAsDraft;
-
     @FindBy(xpath = "//span[contains(text(),'Черновики')]")
     private WebElement draftLetters;
 
