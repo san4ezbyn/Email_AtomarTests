@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.List;
 
 public class SendDraftMail {
@@ -26,28 +27,29 @@ public class SendDraftMail {
         PageFactory.initElements(this.driver, this);
     }
 
-    public LogOut checkDraftLettersFolder(String topic) {
+    public DeleteLetter checkDraftLettersFolder(String topic) {
 
         draftLetters.click();
         checkFolders(topic);
-        return new LogOut(this.driver);
+        return new DeleteLetter(this.driver);
     }
 
-    public LogOut checkSentLettersFolder(String topic) {
+    public DeleteLetter checkSentLettersFolder(String topic) {
         sentLetters.click();
         checkFolders(topic);
-        return new LogOut(this.driver);
+        return new DeleteLetter(this.driver);
     }
 
     public boolean checkFolders(String topic) {
         List<WebElement> listOfLetters = driver.findElements(By.xpath("//div[@class='mail-MessageSnippet-Content']"));
         for (WebElement draftLetter : listOfLetters) {
-            wait.until(ExpectedConditions.textToBePresentInElement(draftLetter, topic)); {
+            wait.until(ExpectedConditions.textToBePresentInElement(draftLetter, topic));
+            {
                 if (draftLetter.getText().contains(topic)) {
                     return false;
                 }
             }
-       }
+        }
         return true;
     }
 }

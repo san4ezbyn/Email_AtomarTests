@@ -29,20 +29,31 @@ public class LaunchAndLogIn {
     private WebElement correctUser;
 
 
+
+
+    @FindBy(xpath = "//a[contains(text(),'Почта')]")
+    private WebElement pochtaButton;
+
     public LaunchAndLogIn(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver, TIME_OUT_SECONDS, SLEEP_MILLIS);
         PageFactory.initElements(this.driver, this);
     }
 
-    public NewLetter startAndLogIn() {
+    //public NewLetter startAndLogIn() {
+        public DeleteLetter startAndLogIn() {
 
         loginField.sendKeys(LOGIN);
         loginButtonEnter.click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@autocomplete='current-password']"))).sendKeys(PASSWORD);
         loginButtonEnter.click();
 
-        return new NewLetter(this.driver);
+
+        correctUser.click();
+        pochtaButton.click();
+
+       // return new NewLetter(this.driver);
+            return new DeleteLetter(this.driver);
     }
 
     public boolean userAccount() {
