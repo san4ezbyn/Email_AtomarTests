@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 
-<!--<suite name="AT_Email:Suite in SE GRID" parallel="tests" thread-count="2" verbose="1">-->
-<suite name="AT_Email:Suite in SE GRID" verbose="1">
+<suite name="AT_Email:Suite in SE GRID" parallel="tests" thread-count="2" verbose="1">
+
 
     <test name="Chrome Test" verbose="1">
         <parameter name="browserName" value="chrome"/>
@@ -12,11 +12,11 @@
         </classes>
     </test>
 
-   <!-- <test name="FireFox Test" verbose="1">
+    <test name="FireFox Test" verbose="1">
         <parameter name="browserName" value="firefox"/>
         <classes>
             <class name="Tests.TestsRunner"/>
         </classes>
-    </test>-->
+    </test>
 
 </suite>
