@@ -1,0 +1,1 @@
+start java -jar selenium_standalone.jar -role hub

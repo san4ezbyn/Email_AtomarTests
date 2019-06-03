@@ -1,15 +1,12 @@
 package Tests;
 
+import factory.DriverFactory;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import services.*;
-
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
-
-import static java.lang.System.setProperty;
 
 public class TestsRunner {
     private static WebDriver driver;
@@ -26,24 +23,35 @@ public class TestsRunner {
     private static final String TEXT = "SOME TEXT FOR LETTER";
     public static final int IMPLICIT_WAIT = 80;
 
+
+
+    public static WebDriver getDriver(String browser) {
+
+        return DriverFactory.createDriver(browser);
+    }
+
     @BeforeClass
-    private void init() {
-        setProperty("webdriver.chrome.driver", "C:\\chromeDriver\\chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
+    @Parameters({"browserName"})
+    public void startBrowser(String browserName) {
+        driver = getDriver(browserName);
         driver.get(URL);
         driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT, TimeUnit.SECONDS);
-        launchAndLogIn = new LaunchAndLogIn(driver);
+        driver.manage().window().maximize();
+
     }
 
-    @Test(testName = "new letter")
+    @Test
     private void login() {
+
+        launchAndLogIn = new LaunchAndLogIn(driver);
+
+
         //newLetter = launchAndLogIn.startAndLogIn();
-        deleteLetter=launchAndLogIn.startAndLogIn();
-       // Assert.assertTrue(launchAndLogIn.userAccount());
+        deleteLetter = launchAndLogIn.startAndLogIn();
+        // Assert.assertTrue(launchAndLogIn.userAccount());
     }
 
- //   @Test
+    //   @Test(parameters = "chrome")
     private void newLetterSavedInDraft() {
 
         sendDraftMail = newLetter.newLetter(RECEIVER, TOPIC, TEXT);
@@ -51,25 +59,26 @@ public class TestsRunner {
         System.out.println("TOPIC " + TOPIC);
     }
 
- //   @Test
+    //   @Test
     private void verifyAndSendDraft() {
         Assert.assertTrue(newLetter.verifyDraftIsCorrect(RECEIVER, TOPIC, TEXT));
     }
 
-  //  @Test(dependsOnMethods = "verifyAndSendDraft", alwaysRun = true)
+    //  @Test(dependsOnMethods = "verifyAndSendDraft", alwaysRun = true)
     private void checkDraftFolder() {
         deleteLetter = sendDraftMail.checkDraftLettersFolder(TOPIC);
-       // Assert.assertFalse(sendDraftMail.checkFolders(TOPIC));
+        // Assert.assertFalse(sendDraftMail.checkFolders(TOPIC));
     }
 
-   //    @Test(dependsOnMethods = "checkDraftFolder", alwaysRun = true)
+    //    @Test(dependsOnMethods = "checkDraftFolder", alwaysRun = true)
     private void checkSentLetterFolder() {
         deleteLetter = sendDraftMail.checkSentLettersFolder(TOPIC);
-       // Assert.assertFalse(sendDraftMail.checkFolders(TOPIC));
+        // Assert.assertFalse(sendDraftMail.checkFolders(TOPIC));
     }
 
 
-    @Test(dependsOnMethods = "login")//(dependsOnMethods = "checkSentLetterFolder", alwaysRun = true)
+    @Test(dependsOnMethods = "login")
+//(dependsOnMethods = "checkSentLetterFolder", alwaysRun = true)
     private void delete() throws InterruptedException {
         logOut = deleteLetter.checkDraftLettersFolder(TOPIC);
     }
@@ -83,5 +92,7 @@ public class TestsRunner {
     @AfterClass
     public void tearDown() {
         driver.close();
+        //driver.quit();
+
     }
 }

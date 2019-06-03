@@ -1,0 +1,2 @@
+start java -Dwebdriver.chrome.driver=chromedriver.exe -jar selenium_standalone.jar -role webdriver -hub http://localhost:4444/grid/register -port 5558 -browser browserName=chrome
+start java -jar selenium_standalone.jar -role webdriver -hub http://localhost:4444/grid/register -port 5556 -browser browserName=firefox
