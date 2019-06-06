@@ -11,10 +11,10 @@ public class DriverFactory {
 
 
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-    private volatile static WebDriver webDriver = null;
 
 
-    public WebDriver createDriver(String browserName) {
+    public static WebDriver createDriver(String browserName) {
+        //browserName = System.getProperty("browser.type");
         DesiredCapabilities capabilities;
         switch (browserName) {
             case "chrome": {
@@ -26,21 +26,17 @@ public class DriverFactory {
             default: {
                 System.setProperty("webDriver.firefox.driver", "C:/fireFoxDriver/geckodriver.exe");
                 capabilities = DesiredCapabilities.firefox();
+                capabilities.setBrowserName("firefox");
                 capabilities.setPlatform(Platform.WINDOWS);
             }
         }
         try {
-            webDriver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
-            driver.set(webDriver);
+         RemoteWebDriver  remoteWebDriver= new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
+            driver.set(remoteWebDriver);
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
+
         return driver.get();
-
-    }
-
-    public static void killDriver() {
-        driver.get().quit();
-        driver.set(null);
     }
 }

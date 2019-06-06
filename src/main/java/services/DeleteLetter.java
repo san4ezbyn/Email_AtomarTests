@@ -53,48 +53,39 @@ public class DeleteLetter {
     public LogOut checkDraftLettersFolder(String topic) throws InterruptedException {
 
         int listBeforeDelete = countList();
-        /*List<WebElement> listOfLetters = driver.findElements(By.xpath("//div[@class='mail-MessageSnippet-Content']"));
-        for (WebElement draftLetter : listOfLetters) {*/
 
-/*wait.until(ExpectedConditions.visibilityOfAllElements(listOfLetters));
-            wait.until(ExpectedConditions.textToBePresentInElement(draftLetter, topic));
-            {
-                if (draftLetter.getText().contains(topic)) {*/
         new Actions(driver).contextClick(someLetter).moveToElement(deleteLetter).click().build().perform();
 
-        // wait.until(ExpectedConditions.visibilityOf(incomingLetters)).click();
+
 
         /*JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("document.getElementsByClassName('mail-NestedList-Item-Name').click()");*/
 
 
-       // clickElementByJS(writeButton, driver);
-       // wait.until(ExpectedConditions.textToBePresentInElement(incomingLetters, "Входящие"));
+        //clickElementByJS(writeButton, driver);
+
         wait.until(ExpectedConditions.elementToBeClickable(incomingLetters)).click();
 
 
-
         Actions dragAndDrop = new Actions(driver);
-        dragAndDrop.dragAndDrop(dragAndDropThisLetter, droppable).build().perform();
+        dragAndDrop.dragAndDrop(clickElementByJS(dragAndDropThisLetter, driver), droppable).build().perform();
 
-        // }
 
-        Thread.sleep(2000);
+       // Thread.sleep(2000);
         int listAfterDelete = countList();
 
         int diff = listBeforeDelete - listAfterDelete;
         checkListAfterDeleteIsTrue();
         Assert.assertEquals(diff, checkListAfterDeleteIsTrue());
 
-        // }
-        // }
+
         return new LogOut(this.driver);
     }
 
-    public void clickElementByJS(WebElement element, WebDriver driver) {
+    public WebElement clickElementByJS(WebElement element, WebDriver driver) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("document.getElementByID('svgicon-mail--MainToolbar-Delete')", element);
-
+        js.executeScript("document.getElementsByClassName('mail-MessageSnippet-Item mail-MessageSnippet-Item_sender js-message-snippet-sender mail-MessageSnippet-Item_widgetSender')", element);
+        return element;
     }
 
     public static int checkListAfterDeleteIsTrue() {

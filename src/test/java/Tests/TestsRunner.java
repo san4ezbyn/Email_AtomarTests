@@ -9,7 +9,7 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class TestsRunner {
-    private WebDriver driver;
+    private static WebDriver driver;
     private static final String URL = "https://passport.yandex.by";
     private static final String PAGE_TITLE = "Яндекс";
     private LaunchAndLogIn launchAndLogIn;
@@ -23,12 +23,17 @@ public class TestsRunner {
     private static final String TEXT = "SOME TEXT FOR LETTER";
     public static final int IMPLICIT_WAIT = 80;
 
+//Hello world
+
+    public static WebDriver getDriver(String browser) {
+
+        return DriverFactory.createDriver(browser);
+    }
 
     @BeforeClass
     @Parameters({"browserName"})
     public void startBrowser(String browserName) {
-        DriverFactory factory = new DriverFactory();
-        driver = factory.createDriver(browserName);
+        driver = getDriver(browserName);
         driver.get(URL);
         driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT, TimeUnit.SECONDS);
         driver.manage().window().maximize();
@@ -86,6 +91,8 @@ public class TestsRunner {
 
     @AfterClass
     public void tearDown() {
-        DriverFactory.killDriver();
+        driver.close();
+        //driver.quit();
+
     }
 }

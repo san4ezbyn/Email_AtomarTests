@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cd2545a-9d6e-4274-840d-2d2c27935c1a" name="Default Changelist" comment="" />
+    <list default="true" id="8cd2545a-9d6e-4274-840d-2d2c27935c1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/DeleteLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/CorpuscularTestsRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/GridTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/Finish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/Finish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/LogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/NewLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/NewLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/SendDraftMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/SendDraftMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xmlRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/Finish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/Finish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/LaunchAndLogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/LaunchAndLogIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/LogOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/LogOut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/NewLetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/NewLetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/SendDraftMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/SendDraftMail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xmlRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xmlRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/TestsRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/TestsRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/SuiteRunner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/SuiteRunner$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/SuiteRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/SuiteRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.TestsRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.TestsRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,46 +44,157 @@
       <FILTER>Tests.*</FILTER>
     </SUITE>
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1369235439">
+    <session id="-1776991503">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="2" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.92" value="1" />
+          <entry key="project.opened" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="bat" value="6" />
+          <entry key="dummy" value="22" />
+          <entry key="java" value="8060" />
+          <entry key="xml" value="641" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Bat" value="6" />
+          <entry key="JAVA" value="8060" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="XML" value="641" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="xml" value="3" />
+          <entry key="Test Login" value="1" />
+          <entry key="bat" value="4" />
+          <entry key="class" value="17" />
+          <entry key="dtd" value="3" />
+          <entry key="java" value="25" />
+          <entry key="png" value="4" />
+          <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="XML" value="3" />
+          <entry key="Bat" value="3" />
+          <entry key="CLASS" value="17" />
+          <entry key="DTD" value="3" />
+          <entry key="Image" value="4" />
+          <entry key="JAVA" value="25" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/GridTest.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="72" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="72" />
+            <state relative-caret-position="1343">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory/DriverFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Test Login.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="782">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/DeleteLetter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/GridTest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/node_start.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/Finish.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,64 +204,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/forTest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory/DriverFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/node_start.bat">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/MutableCapabilities.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -141,6 +223,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/services/CheckLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/Draft.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/Utils.java" />
@@ -159,15 +242,11 @@
         <option value="$PROJECT_DIR$/src/main/java/services/BaseTestGrid.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/WebDriverInstansiator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/services/DeleteLetter.java" />
-        <option value="$PROJECT_DIR$/lib/se-node2-chrome-3.141.59.bat" />
-        <option value="$PROJECT_DIR$/lib/se-node1-chrome-3.141.59.bat" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/lib/se-node2-ff-3.141.59.bat" />
-        <option value="$PROJECT_DIR$/src/main/resources/GridTest.xml" />
         <option value="$PROJECT_DIR$/lib/node_start.bat" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/GridTest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/services/DeleteLetter.java" />
       </list>
     </option>
   </component>
@@ -178,25 +257,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="EmailTask" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="EmailTask" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="4" />
+    <option name="x" value="-1929" />
+    <option name="y" value="10" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -206,84 +269,85 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Email_AtomarTests-develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Email_AtomarTests-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Email_AtomarTests-develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Email_AtomarTests-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Email_AtomarTests-develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Email_AtomarTests-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Email_AtomarTests-develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Email_AtomarTests-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Email_AtomarTests-develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Email_AtomarTests-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Email_AtomarTests-develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Email_AtomarTests-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Email_AtomarTests-develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Email_AtomarTests-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Email_AtomarTests-develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Email_AtomarTests-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Email_AtomarTests-develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Email_AtomarTests-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Email_AtomarTests-develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Email_AtomarTests-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Email_AtomarTests-develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Email_AtomarTests-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Email_AtomarTests-develop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Email_AtomarTests-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -293,23 +357,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559652406936" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559801441573" />
+    <property name="last_opened_file_path" value="C:/WORK_EDUCATION_QA+Automation/Test_QA_materials/AT/Module 7/autoIt" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33678162" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\IdeaProjects\Email_AtomarTests\lib" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -323,11 +379,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml">
-    <configuration name="hub_start (1)" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="Email_AtomarTests" />
+  <component name="RunManager" selected="TestNG.C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml">
+    <configuration name="hub_start" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="EmailTask" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\IdeaProjects\Email_AtomarTests\lib" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\adaky\IdeaProjects\EmailTask\lib" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="hub_start.bat" />
       <option name="PARAMETERS" value="" />
@@ -335,10 +391,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="node_start (1)" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="Email_AtomarTests" />
+    <configuration name="node_start" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="EmailTask" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\IdeaProjects\Email_AtomarTests\lib" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\adaky\IdeaProjects\EmailTask\lib" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="node_start.bat" />
       <option name="PARAMETERS" value="" />
@@ -346,30 +402,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="se-node2-chrome-3.141.59" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="Email_AtomarTests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\IdeaProjects\Email_AtomarTests\lib" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="se-node2-chrome-3.141.59.bat" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="se-node2-ff-3.141.59" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="Email_AtomarTests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\IdeaProjects\Email_AtomarTests\lib" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="se-node2-ff-3.141.59.bat" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Email_AtomarTests" />
+    <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EmailTask" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/GridTest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -378,20 +412,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/xmlRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EmailTask" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/xmlRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsRunner" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EmailTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TestsRunner" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Batch.hub_start (1)" />
-      <item itemvalue="Batch.node_start (1)" />
-      <item itemvalue="Batch.se-node2-chrome-3.141.59" />
-      <item itemvalue="TestNG.C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" />
-      <item itemvalue="Batch.se-node2-ff-3.141.59" />
+      <item itemvalue="TestNG.TestsRunner" />
+      <item itemvalue="TestNG.C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" />
+      <item itemvalue="TestNG.C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/xmlRunner.xml" />
+      <item itemvalue="Batch.hub_start" />
+      <item itemvalue="Batch.node_start" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" />
-        <item itemvalue="Batch.se-node2-ff-3.141.59" />
-        <item itemvalue="Batch.node_start (1)" />
-        <item itemvalue="Batch.hub_start (1)" />
-        <item itemvalue="Batch.se-node2-chrome-3.141.59" />
+        <item itemvalue="TestNG.C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" />
+        <item itemvalue="Batch.node_start" />
+        <item itemvalue="Batch.hub_start" />
+        <item itemvalue="TestNG.TestsRunner" />
+        <item itemvalue="TestNG.C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/xmlRunner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -409,41 +477,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__IdeaProjects_Email_AtomarTests_src_main_resources_GridTest_xml - 2019.06.03 at 17h 03m 14s.xml">
-      <configuration name="C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.05 at 16h 02m 27s.xml">
+      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__IdeaProjects_Email_AtomarTests_src_main_resources_GridTest_xml - 2019.06.03 at 17h 04m 42s.xml">
-      <configuration name="C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.05 at 16h 03m 11s.xml">
+      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__IdeaProjects_Email_AtomarTests_src_main_resources_GridTest_xml - 2019.06.03 at 17h 08m 10s.xml">
-      <configuration name="C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.05 at 16h 05m 51s.xml">
+      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__IdeaProjects_Email_AtomarTests_src_main_resources_GridTest_xml - 2019.06.03 at 17h 13m 13s.xml">
-      <configuration name="C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.05 at 16h 09m 08s.xml">
+      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__IdeaProjects_Email_AtomarTests_src_main_resources_GridTest_xml - 2019.06.03 at 17h 20m 15s.xml">
-      <configuration name="C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.05 at 16h 10m 24s.xml">
+      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__IdeaProjects_Email_AtomarTests_src_main_resources_GridTest_xml - 2019.06.03 at 20h 20m 57s.xml">
-      <configuration name="C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.05 at 16h 12m 08s.xml">
+      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__IdeaProjects_Email_AtomarTests_src_main_resources_GridTest_xml - 2019.06.03 at 20h 22m 42s.xml">
-      <configuration name="C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.05 at 16h 15m 02s.xml">
+      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__IdeaProjects_Email_AtomarTests_src_main_resources_GridTest_xml - 2019.06.04 at 10h 48m 55s.xml">
-      <configuration name="C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.05 at 16h 16m 24s.xml">
+      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__IdeaProjects_Email_AtomarTests_src_main_resources_GridTest_xml - 2019.06.04 at 11h 01m 05s.xml">
-      <configuration name="C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.05 at 16h 18m 37s.xml">
+      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__IdeaProjects_Email_AtomarTests_src_main_resources_GridTest_xml - 2019.06.04 at 11h 30m 05s.xml">
-      <configuration name="C:/IdeaProjects/Email_AtomarTests/src/main/resources/GridTest.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.06 at 09h 06m 23s.xml">
+      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="4" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.282516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -452,7 +521,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5547129" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41386783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,10 +539,9 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.12899786" />
-      <window_info anchor="right" id="Maven" order="9" weight="0.32995737" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2761194" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,7 +550,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29577464" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47453955" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -491,15 +559,15 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.12899786" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.12899786" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -510,45 +578,51 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/services/DeleteLetter.java</url>
-          <line>62</line>
+          <line>56</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/services/DeleteLetter.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/services/DeleteLetter.java</url>
-          <line>76</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/services/DeleteLetter.java</url>
-          <line>77</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/services/DeleteLetter.java</url>
-          <line>90</line>
+          <line>81</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java</url>
-          <line>30</line>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/factory/DriverFactory.java</url>
           <line>18</line>
           <properties />
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/factory/DriverFactory.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -562,6 +636,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/services/Utils.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="865" selection-start-line="865" selection-end-line="865" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/internal/TestMethodWorker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
@@ -604,13 +685,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/corpuscularTests.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Test Login.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/forTest.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/corpuscularTests.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/interactions/Actions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -634,42 +711,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/services/SendDraftMail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="595">
+          <caret line="43" column="109" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="114" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/skipped.png" />
-    <entry file="file://$PROJECT_DIR$/test-output/passed.png" />
-    <entry file="file://$PROJECT_DIR$/test-output/failed.png" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/skipped.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/passed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/failed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/services/BaseTestGrid.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/services/WebDriverInstansiator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/CorpuscularTestsRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="1411">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/lib/hub_start.bat">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/Finish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test-output/bullet_point.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/bullet_point.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/DeleteLetter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="62" column="94" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="107" />
+        <state relative-caret-position="1343">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -678,100 +759,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
+        <state relative-caret-position="782">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/hub_start.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/DesiredCapabilities.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/se-node2-chrome-3.141.59.bat" />
-    <entry file="file://$PROJECT_DIR$/lib/se-node1-chrome-3.141.59.bat" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar!/org/openqa/selenium/chrome/ChromeOptions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar!/org/openqa/selenium/firefox/FirefoxOptions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="62" column="50" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/Collections.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/System.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/String.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/ClassLoader.java" />
-    <entry file="file://$PROJECT_DIR$/lib/se-node2-ff-3.141.59.bat" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/node_start.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/Finish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/MutableCapabilities.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="102">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Test Login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -782,17 +798,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/forTest.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/DeleteLetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        <state relative-caret-position="22">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/GridTest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="72" />
+        <state relative-caret-position="357">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
