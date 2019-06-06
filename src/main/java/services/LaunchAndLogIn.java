@@ -29,8 +29,8 @@ public class LaunchAndLogIn {
     @FindBy(xpath = "//div[@class='user2']")
     private WebElement correctUser;
 
-
-
+    @FindBy(xpath = "//div[@class='mail-User-Name']")
+    private WebElement verifyUser;
 
     @FindBy(xpath = "//a[contains(text(),'Почта')]")
     private WebElement pochtaButton;
@@ -41,24 +41,20 @@ public class LaunchAndLogIn {
         PageFactory.initElements(this.driver, this);
     }
 
-    //public NewLetter startAndLogIn() {
-        public DeleteLetter startAndLogIn() {
+    public DeleteLetter startAndLogIn() {
 
         loginField.sendKeys(LOGIN);
         loginButtonEnter.click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@autocomplete='current-password']"))).sendKeys(PASSWORD);
         loginButtonEnter.click();
-
-
         correctUser.click();
         pochtaButton.click();
 
-       // return new NewLetter(this.driver);
-            return new DeleteLetter(this.driver);
+        return new DeleteLetter(this.driver);
     }
 
     public boolean userAccount() {
-        if (correctUser.getText().equalsIgnoreCase(USER_ACCOUNT)) {
+        if (verifyUser.getText().equalsIgnoreCase(USER_ACCOUNT)) {
             return true;
         }
         return false;

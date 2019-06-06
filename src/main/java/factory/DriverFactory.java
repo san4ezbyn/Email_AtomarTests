@@ -14,7 +14,7 @@ public class DriverFactory {
 
 
     public static WebDriver createDriver(String browserName) {
-        //browserName = System.getProperty("browser.type");
+
         DesiredCapabilities capabilities;
         switch (browserName) {
             case "chrome": {

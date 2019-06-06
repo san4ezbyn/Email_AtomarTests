@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,12 +13,6 @@ public class NewLetter {
     private static final String NEW_LETTER_TOPIC = "AT-WD-№";
 
     private static WebDriver driver;
-
-    @FindBy(xpath = "//div[@class='user2']")
-    private WebElement correctUser;
-
-    @FindBy(xpath = "//a[contains(text(),'Почта')]")
-    private WebElement pochtaButton;
 
     @FindBy(xpath = "//span[@class='mail-ComposeButton-Text'][contains(text(),'Написать')]")
     private WebElement writeNewLetter;
@@ -47,10 +42,9 @@ public class NewLetter {
         this.driver = driver;
         PageFactory.initElements(this.driver, this);
     }
+
     public SendDraftMail newLetter(String receiver, String topic, String text) {
 
-        correctUser.click();
-        pochtaButton.click();
         writeNewLetter.click();
         receiverField.sendKeys(receiver);
         topicField.sendKeys(topic);

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import services.*;
+
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -23,7 +24,6 @@ public class TestsRunner {
     private static final String TEXT = "SOME TEXT FOR LETTER";
     public static final int IMPLICIT_WAIT = 80;
 
-//Hello world
 
     public static WebDriver getDriver(String browser) {
 
@@ -44,14 +44,17 @@ public class TestsRunner {
     private void login() {
 
         launchAndLogIn = new LaunchAndLogIn(driver);
-
-
-        //newLetter = launchAndLogIn.startAndLogIn();
         deleteLetter = launchAndLogIn.startAndLogIn();
-        // Assert.assertTrue(launchAndLogIn.userAccount());
+        Assert.assertTrue(launchAndLogIn.userAccount());
     }
 
-    //   @Test(parameters = "chrome")
+    @Test(dependsOnMethods = "login")
+    private void deleteWithActionsAndJS() throws InterruptedException {
+        newLetter = deleteLetter.checkDraftLettersFolder();
+        // TODO Assertion
+    }
+
+    @Test(dependsOnMethods = "deleteWithActionsAndJS")
     private void newLetterSavedInDraft() {
 
         sendDraftMail = newLetter.newLetter(RECEIVER, TOPIC, TEXT);
@@ -59,31 +62,24 @@ public class TestsRunner {
         System.out.println("TOPIC " + TOPIC);
     }
 
-    //   @Test
+    @Test(dependsOnMethods = "newLetterSavedInDraft")
     private void verifyAndSendDraft() {
         Assert.assertTrue(newLetter.verifyDraftIsCorrect(RECEIVER, TOPIC, TEXT));
     }
 
-    //  @Test(dependsOnMethods = "verifyAndSendDraft", alwaysRun = true)
+    @Test(dependsOnMethods = "verifyAndSendDraft", alwaysRun = true)
     private void checkDraftFolder() {
-        deleteLetter = sendDraftMail.checkDraftLettersFolder(TOPIC);
-        // Assert.assertFalse(sendDraftMail.checkFolders(TOPIC));
+        logOut = sendDraftMail.checkDraftLettersFolder(TOPIC);
+        Assert.assertFalse(sendDraftMail.checkFolders(TOPIC));
     }
 
-    //    @Test(dependsOnMethods = "checkDraftFolder", alwaysRun = true)
+    @Test(dependsOnMethods = "checkDraftFolder", alwaysRun = true)
     private void checkSentLetterFolder() {
-        deleteLetter = sendDraftMail.checkSentLettersFolder(TOPIC);
-        // Assert.assertFalse(sendDraftMail.checkFolders(TOPIC));
+        logOut = sendDraftMail.checkSentLettersFolder(TOPIC);
+        Assert.assertFalse(sendDraftMail.checkFolders(TOPIC));
     }
 
-
-    @Test(dependsOnMethods = "login")
-//(dependsOnMethods = "checkSentLetterFolder", alwaysRun = true)
-    private void delete() throws InterruptedException {
-        logOut = deleteLetter.checkDraftLettersFolder(TOPIC);
-    }
-
-    @Test(dependsOnMethods = "delete", alwaysRun = true)
+    @Test(dependsOnMethods = "checkSentLetterFolder", alwaysRun = true)
     private void logingOut() {
         finish = logOut.logOut();
         Assert.assertEquals(logOut.getStartPageTitel(), PAGE_TITLE);

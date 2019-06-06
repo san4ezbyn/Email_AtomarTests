@@ -27,17 +27,17 @@ public class SendDraftMail {
         PageFactory.initElements(this.driver, this);
     }
 
-    public DeleteLetter checkDraftLettersFolder(String topic) {
+    public LogOut checkDraftLettersFolder(String topic) {
 
         draftLetters.click();
         checkFolders(topic);
-        return new DeleteLetter(this.driver);
+        return new LogOut(this.driver);
     }
 
-    public DeleteLetter checkSentLettersFolder(String topic) {
+    public LogOut checkSentLettersFolder(String topic) {
         sentLetters.click();
         checkFolders(topic);
-        return new DeleteLetter(this.driver);
+        return new LogOut(this.driver);
     }
 
     public boolean checkFolders(String topic) {

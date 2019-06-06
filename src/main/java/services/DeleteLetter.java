@@ -50,36 +50,21 @@ public class DeleteLetter {
         return listOfLetters.size();
     }
 
-    public LogOut checkDraftLettersFolder(String topic) throws InterruptedException {
+    public NewLetter checkDraftLettersFolder() throws InterruptedException {
 
         int listBeforeDelete = countList();
-
         new Actions(driver).contextClick(someLetter).moveToElement(deleteLetter).click().build().perform();
-
-
-
-        /*JavascriptExecutor js = (JavascriptExecutor)driver;
-        js.executeScript("document.getElementsByClassName('mail-NestedList-Item-Name').click()");*/
-
-
-        //clickElementByJS(writeButton, driver);
-
         wait.until(ExpectedConditions.elementToBeClickable(incomingLetters)).click();
-
 
         Actions dragAndDrop = new Actions(driver);
         dragAndDrop.dragAndDrop(clickElementByJS(dragAndDropThisLetter, driver), droppable).build().perform();
 
-
-       // Thread.sleep(2000);
         int listAfterDelete = countList();
-
         int diff = listBeforeDelete - listAfterDelete;
         checkListAfterDeleteIsTrue();
         Assert.assertEquals(diff, checkListAfterDeleteIsTrue());
 
-
-        return new LogOut(this.driver);
+        return new NewLetter(this.driver);
     }
 
     public WebElement clickElementByJS(WebElement element, WebDriver driver) {
