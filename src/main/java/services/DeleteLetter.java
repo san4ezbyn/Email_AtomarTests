@@ -54,11 +54,13 @@ public class DeleteLetter {
 
         int listBeforeDelete = countList();
         new Actions(driver).contextClick(someLetter).moveToElement(deleteLetter).click().build().perform();
+        Thread.sleep(2000);
         wait.until(ExpectedConditions.elementToBeClickable(incomingLetters)).click();
 
         Actions dragAndDrop = new Actions(driver);
         dragAndDrop.dragAndDrop(clickElementByJS(dragAndDropThisLetter, driver), droppable).build().perform();
 
+        Thread.sleep(2000);
         int listAfterDelete = countList();
         int diff = listBeforeDelete - listAfterDelete;
         checkListAfterDeleteIsTrue();

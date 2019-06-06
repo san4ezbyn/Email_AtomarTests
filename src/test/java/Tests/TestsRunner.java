@@ -54,7 +54,7 @@ public class TestsRunner {
         // TODO Assertion
     }
 
-    @Test(dependsOnMethods = "deleteWithActionsAndJS")
+    @Test(dependsOnMethods = "deleteWithActionsAndJS", alwaysRun = true)
     private void newLetterSavedInDraft() {
 
         sendDraftMail = newLetter.newLetter(RECEIVER, TOPIC, TEXT);
@@ -62,7 +62,7 @@ public class TestsRunner {
         System.out.println("TOPIC " + TOPIC);
     }
 
-    @Test(dependsOnMethods = "newLetterSavedInDraft")
+    @Test(dependsOnMethods = "newLetterSavedInDraft", alwaysRun = true)
     private void verifyAndSendDraft() {
         Assert.assertTrue(newLetter.verifyDraftIsCorrect(RECEIVER, TOPIC, TEXT));
     }
