@@ -7,6 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import ru.yandex.qatools.htmlelements.element.Button;
+import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementDecorator;
+import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementLocatorFactory;
 
 import java.util.List;
 
@@ -16,15 +19,15 @@ public class SendDraftMail {
     private static WebDriverWait wait;
 
     @FindBy(xpath = "//span[contains(text(),'Отправленные')]")
-    private WebElement sentLetters;
+    private Button sentLetters;
 
     @FindBy(xpath = "//span[contains(text(),'Черновики')]")
-    private WebElement draftLetters;
+    private Button draftLetters;
 
     public SendDraftMail(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver, 30, 60);
-        PageFactory.initElements(this.driver, this);
+        PageFactory.initElements(new HtmlElementDecorator(new HtmlElementLocatorFactory(driver)), this);
     }
 
     public LogOut checkDraftLettersFolder(String topic) {

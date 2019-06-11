@@ -5,17 +5,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import ru.yandex.qatools.htmlelements.element.Button;
+import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementDecorator;
+import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementLocatorFactory;
 
 public class LogOut {
 
     private static WebDriver driver;
 
-    @FindBy(xpath = "//div[@class='mail-User-Name'][contains(text(),'alexbyn')]")
-    private WebElement userAccount;
+    @FindBy(className = "mail-User-Name")
+    private Button userAccount;
 
     public LogOut(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(this.driver, this);
+        PageFactory.initElements(new HtmlElementDecorator(new HtmlElementLocatorFactory(driver)), this);
     }
 
     public Finish logOut() {
