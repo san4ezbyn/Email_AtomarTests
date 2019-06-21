@@ -24,11 +24,11 @@ public class WriteNewLetter extends HtmlElement {
     private TextInput textField;
 
 
-   public void newLetterWrite(String receiver, String topic, String text){
-       writeNewLetter.click();
-       receiverField.sendKeys(receiver);
-       topicField.sendKeys(topic);
-       textField.sendKeys(text);
+    public void newLetterWrite(String receiver, String topic, String text) {
+        writeNewLetter.click();
+        receiverField.sendKeys(receiver);
+        topicField.sendKeys(topic);
+        textField.sendKeys(text);
 
-   }
+    }
 }

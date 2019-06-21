@@ -2,7 +2,6 @@ package decorator;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 import java.util.concurrent.TimeUnit;
 
 
