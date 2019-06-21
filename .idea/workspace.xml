@@ -2,27 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cd2545a-9d6e-4274-840d-2d2c27935c1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/DriverDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/WebDriverCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/AbstractBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/ChromeBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/FireFoxBrowser.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/htmlBlocks/Login.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/htmlBlocks/WriteNewLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/DeleteLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DeleteLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LaunchAndLogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NewLetter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/CorpuscularTestsRunner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/GridTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/Finish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/Finish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/LogOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/NewLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/NewLetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/SendDraftMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/SendDraftMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/Finish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Finish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/NewLetter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/SendDraftMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SendDraftMail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/xmlRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/SuiteRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/Finish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/Finish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/LaunchAndLogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/LaunchAndLogIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/LogOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/LogOut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/NewLetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/NewLetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/SendDraftMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/SendDraftMail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/Finish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/LaunchAndLogIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/LogOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/NewLetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/SendDraftMail.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xmlRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xmlRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/TestsRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/TestsRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runners/SuiteRunner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/SuiteRunner$1.class" afterDir="false" />
@@ -51,11 +59,12 @@
     <session id="-1776991503">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
@@ -63,30 +72,33 @@
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.46" value="2" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="bat" value="6" />
           <entry key="dummy" value="27" />
-          <entry key="java" value="9041" />
+          <entry key="java" value="10414" />
           <entry key="xml" value="644" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bat" value="6" />
-          <entry key="JAVA" value="9041" />
+          <entry key="JAVA" value="10414" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="XML" value="644" />
         </counts>
@@ -95,9 +107,9 @@
         <counts>
           <entry key="Test Login" value="1" />
           <entry key="bat" value="7" />
-          <entry key="class" value="24" />
+          <entry key="class" value="30" />
           <entry key="dtd" value="3" />
-          <entry key="java" value="39" />
+          <entry key="java" value="64" />
           <entry key="png" value="4" />
           <entry key="xml" value="13" />
         </counts>
@@ -105,10 +117,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bat" value="6" />
-          <entry key="CLASS" value="24" />
+          <entry key="CLASS" value="30" />
           <entry key="DTD" value="3" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="39" />
+          <entry key="JAVA" value="64" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="14" />
         </counts>
@@ -120,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="-129">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,19 +142,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/services/SendDraftMail.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/decorator/WebDriverCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="29" column="104" selection-start-line="29" selection-start-column="104" selection-end-line="29" selection-end-column="104" />
+            <state relative-caret-position="153">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory/DriverFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/decorator/DriverDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory/ChromeBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,10 +188,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/services/DeleteLetter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory/FireFoxBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,56 +200,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory/BrowserType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="104" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/htmlBlocks/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/htmlBlocks/WriteNewLetter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/services/NewLetter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1884#1892#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/services/LogOut.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -222,6 +213,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -248,17 +241,31 @@
         <option value="$PROJECT_DIR$/src/main/java/services/WebDriverInstansiator.java" />
         <option value="$PROJECT_DIR$/lib/node_start.bat" />
         <option value="$PROJECT_DIR$/src/main/resources/GridTest.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/DriverFactory.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/htmlBlocks/Creds.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/DeleteLetter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/htmlBlocks/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/htmlBlocks/WriteNewLetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/SendDraftMail.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/LogOut.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/NewLetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/htmlBlocks/WriteNewLetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/htmlBlocks/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/decorator/StartBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/decorator/MaximizeWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/decorator/StartDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/decorator/Maximize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/decorator/WebDriverCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/BrowserType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/BrowserName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/AbstractBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/ChromeBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/FireFoxBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/decorator/DriverDecorator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/WebDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/singletone/WebDriverSingletone.java" />
       </list>
     </option>
   </component>
@@ -270,10 +277,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1932" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -281,6 +287,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,6 +330,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmailTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -338,7 +354,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EmailTask" type="b2602c69:ProjectViewProjectNode" />
@@ -380,17 +396,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560238309024" />
-    <property name="last_opened_file_path" value="C:/WORK_EDUCATION_QA+Automation/Test_QA_materials/AT/Module 7/autoIt" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561116473421" />
+    <property name="last_opened_file_path" value="C:/WORK_EDUCATION_QA+Automation/Test_QA_materials/AT/Module 9. Design Patterns in TA Frameworks implementation/Module9_patterns-playground" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33678162" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="decorator" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -502,42 +521,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.11 at 09h 16m 59s.xml">
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.13 at 11h 03m 20s.xml">
       <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.11 at 09h 38m 17s.xml">
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.13 at 11h 03m 53s.xml">
       <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.11 at 09h 44m 06s.xml">
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.13 at 11h 08m 08s.xml">
       <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.11 at 09h 44m 39s.xml">
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.13 at 11h 10m 34s.xml">
       <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.11 at 09h 49m 58s.xml">
+    <history-entry file="TestsRunner - 2019.06.14 at 08h 39m 51s.xml">
+      <configuration name="TestsRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.14 at 08h 42m 26s.xml">
       <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.11 at 09h 56m 31s.xml">
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.19 at 12h 10m 58s.xml">
       <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.11 at 09h 58m 31s.xml">
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.21 at 14h 16m 19s.xml">
       <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.11 at 09h 59m 47s.xml">
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.21 at 14h 27m 05s.xml">
       <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.11 at 10h 01m 16s.xml">
-      <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.11 at 10h 17m 52s.xml">
+    <history-entry file="C__Users_adaky_IdeaProjects_EmailTask_src_main_resources_GridTest_xml - 2019.06.21 at 14h 29m 51s.xml">
       <configuration name="C:/Users/adaky/IdeaProjects/EmailTask/src/main/resources/GridTest.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20575693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -546,7 +565,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51029253" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33694476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,7 +585,7 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.12899786" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -575,7 +594,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.51029253" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13109426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -602,13 +621,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/services/NewLetter.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/pages/NewLetter.java</url>
           <line>149</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/services/NewLetter.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/pages/NewLetter.java</url>
           <line>150</line>
           <properties />
           <option name="timeStamp" value="25" />
@@ -617,28 +636,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/Utils.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/TestNG.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="904" selection-start-line="904" selection-end-line="904" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng-plugin.jar!/resources/standardSchemas/testng-1.0.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Test Login.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/forTest.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/corpuscularTests.xml" />
@@ -703,13 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/Finish.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/Finish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,26 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,65 +759,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/DeleteLetter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/NewLetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="374">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/LaunchAndLogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/htmlBlocks/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/htmlBlocks/WriteNewLetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/LogOut.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LogOut.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/NewLetter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator/StartBrowser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator/StartDriver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator/MaximizeWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator/Maximize.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LaunchAndLogIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="714">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/htmlBlocks/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/htmlBlocks/WriteNewLetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SendDraftMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/BrowserName.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/AbstractBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="284" column="25" selection-start-line="284" selection-start-column="25" selection-end-line="284" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="76" column="45" lean-forward="true" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DeleteLetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TestsRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1884#1892#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/SendDraftMail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/FireFoxBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="29" column="104" selection-start-line="29" selection-start-column="104" selection-end-line="29" selection-end-column="104" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/BrowserType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/singletone/WebDriverSingletone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/ChromeBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#1113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator/DriverDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator/WebDriverCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>

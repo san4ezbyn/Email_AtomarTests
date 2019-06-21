@@ -1,13 +1,17 @@
 package Tests;
 
-import factory.DriverFactory;
+import factory.BrowserFactory;
+import factory.BrowserType;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.*;
-import services.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+import pages.*;
 
+import java.sql.SQLException;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 public class TestsRunner {
     private static WebDriver driver;
@@ -25,22 +29,26 @@ public class TestsRunner {
     public static final int IMPLICIT_WAIT = 80;
 
 
-    public static WebDriver getDriver(String browser) {
-
-        return DriverFactory.createDriver(browser);
+    @BeforeClass
+    @Parameters({"browserName"})
+    public void startBrowser(String browserName) throws SQLException {
+        BrowserType browserType = BrowserType.valueOf(browserName.toUpperCase());
+        driver = new BrowserFactory().createDriver(browserType, URL);
     }
 
-    @BeforeClass
+
+
+
+    /*@BeforeClass
     @Parameters({"browserName"})
     public void startBrowser(String browserName) {
         driver = getDriver(browserName);
         driver.get(URL);
         driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+    }*/
 
-    }
-
-    @Test
+    @Test(description = "chrome")
     private void login() {
 
         launchAndLogIn = new LaunchAndLogIn(driver);
@@ -51,7 +59,7 @@ public class TestsRunner {
     @Test(dependsOnMethods = "login")
     private void deleteWithActionsAndJS() throws InterruptedException {
         newLetter = deleteLetter.checkDraftLettersFolder();
-        // TODO Assertion
+
     }
 
     @Test(dependsOnMethods = "deleteWithActionsAndJS", alwaysRun = true)
@@ -87,7 +95,7 @@ public class TestsRunner {
 
     @AfterClass
     public void tearDown() {
-       // driver.close();
+        // driver.close();
         //driver.quit();
 
     }

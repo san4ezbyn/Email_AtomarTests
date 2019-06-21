@@ -6,7 +6,6 @@ import ru.yandex.qatools.htmlelements.annotations.Name;
 import ru.yandex.qatools.htmlelements.element.HtmlElement;
 import ru.yandex.qatools.htmlelements.element.TextInput;
 
-
 @Name("Login")
 @FindBy(xpath = "//form")
 public class Login extends HtmlElement {
@@ -22,7 +21,6 @@ public class Login extends HtmlElement {
     @FindBy(id = "passp-field-passwd")
     private TextInput password;
 
-
     @FindBy(xpath = "//button[@type='submit']")
     private WebElement loginButtonEnter;
 
@@ -33,5 +31,4 @@ public class Login extends HtmlElement {
         password.sendKeys(PASSWORD);
         loginButtonEnter.click();
     }
-
 }
